@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="eva3_9_leer_archivos_txt">
+  <ClassDiagramComponents>
+    <Class name="EVA3_9_LEER_ARCHIVOS_TXT" package="eva3_9_leer_archivos_txt" visibility="public" xPosition="192.0" yPosition="161.0">
+      <Fields>
+        <Field name="RUTA" type="String" visibility="package" isStatic="true" isFinal="true"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+        <Method name="ReadUsingFiles" returnType="void" visibility="private" isStatic="true">
+          <Argument type="String" name="RUTA"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
